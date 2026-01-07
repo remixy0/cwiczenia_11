@@ -43,8 +43,7 @@ public class Main {
 
             while (scanner.hasNextLine()) {
                 line = scanner.nextLine();
-                pw.write(line);
-                pw.write("\n");
+                pw.println(line);
                 Scanner scanner2 = new Scanner(line);
                 while (scanner2.hasNext()) {
                     token = scanner2.next();
